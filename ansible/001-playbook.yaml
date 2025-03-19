@@ -8,3 +8,14 @@
     - name: task2 of play1
       ansible.builtin.debug:
        msg: "ola from task2 of play1"
+
+- name:  playbook2
+  hosts: frontend
+  tasks:
+    - name: task1 of play1
+      ansible.builtin.debug:
+       msg: "olympics"
+
+    - name: task2 of play1
+      ansible.builtin.debug:
+       msg: "2024-france"
