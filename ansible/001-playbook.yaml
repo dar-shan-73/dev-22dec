@@ -1,11 +1,10 @@
----
 - name:  playbook1
   hosts: all
   tasks:
     - name: task1 of play1
       ansible.builtin.debug:
-      msg: "hi from task1 of play1"
+       msg: "hi from task1 of play1"
 
     - name: task2 of play1
       ansible.builtin.debug:
-      msg: "ola from task2 of play1"
+       msg: "ola from task2 of play1"
