@@ -1,0 +1,1 @@
+ansible-playbook -i inv -e ansible_user=ec2-user -e ansible_password=DevOps321 
