@@ -2,5 +2,6 @@ install= pip3.11 install ansible
 check version= ansible --version
 run= ansible-playbook -i inv -e ansible_user=ec2-user -e ansible_password=DevOps321 -e URL=cli.google.com <filename>
 for tag= running on specific node= -t frontend 
+need to update the ips in the inv file on vs code
 
 git add . ; git commit -m "001 playbook added" ; git push
