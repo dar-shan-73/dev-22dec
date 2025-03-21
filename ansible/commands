@@ -10,8 +10,8 @@ for tag= running on specific node= in the
                 state: present
               tags: frontend
           
-need to update the ips in the inv file on vs code
+# need to update the ips in the inv file on vs code
 
-you can use ping, telnet to verify on server
+# you can use ping, telnet to verify on server
 
 git add . ; git commit -m "001 playbook added" ; git push
