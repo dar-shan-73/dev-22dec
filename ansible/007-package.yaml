@@ -9,8 +9,8 @@
       name: nginx
       state: present
 
-  - name: unInstall nginx
-    ansible.builtin.package:
-      name: nginx
-      state: absent
-    tags: mysql
+  # - name: unInstall nginx
+  #   ansible.builtin.package:
+  #     name: nginx
+  #     state: absent
+  #   tags: mysql
