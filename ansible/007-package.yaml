@@ -1,6 +1,7 @@
 - name: Install a package using Ansible
   hosts: all
-  
+  gather_facts: no
+  become: yes
   tasks:
   - name: Install nginx
     ansible.builtin.package:
