@@ -9,7 +9,7 @@
   #     name: nginx
   #     state: present
 
-  - name: unInstall nginx
-    ansible.builtin.package:
-      name: nginx
-      state: absent
+    - name: uninstall nginx
+      ansible.builtin.package:
+        name: nginx
+        state: absent
