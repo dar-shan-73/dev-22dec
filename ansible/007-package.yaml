@@ -3,13 +3,13 @@
   gather_facts: no
   become: yes
   
-  # tasks:
+  tasks:
   # - name: Install nginx
   #   ansible.builtin.package:
   #     name: nginx
   #     state: present
 
-    - name: uninstall nginx
+    - name: Remove the  package
       ansible.builtin.package:
         name: nginx
         state: absent
