@@ -3,14 +3,14 @@
   gather_facts: no
   become: yes
   
-  tasks:
-  - name: Install nginx
-    ansible.builtin.package:
-      name: nginx
-      state: present
-
-  # - name: unInstall nginx
+  # tasks:
+  # - name: Install nginx
   #   ansible.builtin.package:
   #     name: nginx
-  #     state: absent
-  #   tags: mysql
+  #     state: present
+
+  - name: unInstall nginx
+    ansible.builtin.package:
+      name: nginx
+      state: absent
+    tags: mysql
