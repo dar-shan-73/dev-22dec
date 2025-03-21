@@ -1,7 +1,6 @@
 - name: Install a package using Ansible
   hosts: all
   
- 
   tasks:
   - name: Install nginx
   ansible.builtin.package:
